@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:stretchColumns="1">
+    <!---->
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Student ID"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/userid"
+            android:layout_marginLeft="10sp"
+            android:hint="请输入你的学号"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Password"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_marginLeft="10sp"
+            android:hint="请输入密码"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/capture_img"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/capture_str"
+            android:inputType="text"
+            android:layout_marginLeft="10sp"
+            android:hint="请输入验证码"
+            android:textSize="20sp"/>
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/login_menu_login"
+            android:layout_span="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            />
+    </TableRow>
+</TableLayout>
