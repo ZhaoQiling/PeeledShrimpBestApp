@@ -20,5 +20,7 @@
         </activity>
         <activity android:name=".LogInActivity">
         </activity>
+        <activity android:name=".SwtichWeekActivity">
+        </activity>
     </application>
 </manifest>

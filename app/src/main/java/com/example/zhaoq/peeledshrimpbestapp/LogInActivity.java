@@ -63,13 +63,13 @@ public class LogInActivity extends Activity {
                             try {
                                 CrwalJW.LogIn(capture);
 
-                                // to do 改为爬取一年内容， 并且存储到数据库
+//                                 to do 改为爬取一年内容， 并且存储到数据库
 //                                Object[] carr = CrwalJW.getCourseArr(2018, 1,5);
 //                                for(int i = 0; i < carr.length; i++) {
 //                                    Course temp = (Course)carr[i];
 //                                    System.out.println(temp);
 //                                }
-//
+
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
@@ -78,8 +78,7 @@ public class LogInActivity extends Activity {
 
                 }
 
-
-                // to do 同步课程表
+                finish();
             }
         });
     }
